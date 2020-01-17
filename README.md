@@ -1,4 +1,4 @@
-#Portpolio
+# Suin's Portpolio
 
-1.Daily Commit!
-2.Develpe using React, Node.js, HTML, javascript, java, CSS, others
+- Daily Commit!
+- Develpe using React, Node.js, HTML, javascript, java, CSS, others
