@@ -2,10 +2,20 @@
   text-align: center;
   vertical-align: middle;
 }
+/*앱전체*/
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,6 +23,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.App-link {
+  color: #61dafb;
+}
+/*로고*/
 
 .App-header {
   background-color: #fa5fe8; /*배경색*/
@@ -25,20 +40,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/*헤더*/
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.App-body {
+.App-section {
 	background-color: #f0fa5f;
 }
+/*섹션*/
