@@ -18,14 +18,11 @@ function App() {
 	      >
 	      Please~~~
 	   		</a>
-	   	</header> //헤더
-	   	
+	   	</header>
 	   	<section className="App-section">
 	   		<p> section 영역 </p>
-	   	</section> //섹션
-	   	
-    </div> //앱전체
-    
+	   	</section>
+    </div>
   );
 }
 
