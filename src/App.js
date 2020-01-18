@@ -19,9 +19,9 @@ function App() {
 	      Please~~~
 	   		</a>
 	   	</header>
-	   	<section className="App-section">
-	   		<p> section ¿µ¿ª </p>
-	   	</section>
+	   	<nav className="App-section">
+	   		<p> section</p>
+	   	</nav>
     </div>
   );
 }
