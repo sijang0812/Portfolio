@@ -20,8 +20,8 @@ function App() {
 	   		</a>
 	   	</header>
 	   	//헤더
-	   	<section>
-	   		<h1> section 영역 </h1>
+	   	<section className="App-section">
+	   		<p> section 영역 </p>
 	   	</section>
 	   	//섹션
     </div>
