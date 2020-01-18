@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  vertical-align: middle;
 }
 /*앱전체*/
 
@@ -32,7 +31,6 @@
 .App-header {
   background-color: #fa5fe8; /*배경색*/
   min-height: 100vh;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,5 +42,7 @@
 
 .App-section {
 	background-color: #f0fa5f;
+	min-height: 40vh; /*높이*/
+	display: flex; /*화면 꽉 채우기*/
 }
 /*섹션*/

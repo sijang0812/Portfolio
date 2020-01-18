@@ -1,8 +1,7 @@
 .App {
   text-align: center;
-  vertical-align: middle;
 }
-//앱전체
+/*앱전체*/
 
 .App-logo {
   height: 40vmin;
@@ -27,12 +26,11 @@
 .App-link {
   color: #61dafb;
 }
-//로고
+/*로고*/
 
 .App-header {
   background-color: #fa5fe8; /*배경색*/
   min-height: 100vh;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,9 +38,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-//헤더
+/*헤더*/
 
 .App-section {
 	background-color: #f0fa5f;
+	min-height: 40vh; /*높이*/
+	display: flex; /*화면 꽉 채우기*/
 }
-//섹션
+/*섹션*/
