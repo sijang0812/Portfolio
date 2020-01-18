@@ -21,6 +21,11 @@ function App() {
 	        </a>
 	      </header>
    		</div>
+   		<div className="App-body">
+   			<p>
+   				test
+   			</p>
+   		</div>
     </div>
   );
 }
