@@ -40,5 +40,5 @@
 }
 
 .App-body {
-	background-color: #f0fa5f;
+	color: #f0fa5f;
 }
