@@ -1,3 +1,4 @@
+/*App.js*/
 .App {
   text-align: center;
 }
@@ -29,20 +30,64 @@
 /*로고*/
 
 .App-header {
-  background-color: #fa5fe8; /*배경색*/
-  min-height: 100vh;
+  background-color: #E0F2F7; /*배경색*/
+  height: 10%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(5px + 2vmin);
+  color: black;
+  font-family: Arial;
 }
 /*헤더*/
 
+.App-nav {
+	height: 5%;
+	width: 100%;
+	width: device-width;
+	background-color:#E0F2F7;
+	display: flex;
+}
+
+.App-nav ul li { /*이걸 적용과 동시에 세로로 놓이던 것들이 자동으로 가로로 설정됨*/
+	list-style: none; /*li태그들을 나타내는 점들이 없어짐*/
+	background-color: #E0F2F7; 
+	color: black;
+	float: left; /*이름이 길면 옆으로 흐르게 함*/
+	line-height: 5%;
+	vertical-align: top;
+	text-align: center;
+}
+
+.App-nav .navLink {
+	text-decoration: none; /*태그 아래 링크 밑줄 없앰*/
+	display: block; /*글씨뿐만 아니라 그 근처 눌러도 링크 걸리게 하기*/
+	width: 150px; /*모여져 있던 메뉴가 흩어짐*/
+	height:100%;
+	font-size: 1em;
+	font-weight: bold; /*폰트 굵기 적용*/
+	color: black;
+}
+
+.App-nav .navLink:hover { /*커서 위에 올려놓았을 때*/
+	color: grey;
+}
+/*네비게이션*/
+
 .App-section {
 	background-color: #f0fa5f;
-	min-height: 40vh; /*높이*/
+	height: 20%; /*높이*/
+	width: 100%;
 	display: flex; /*화면 꽉 채우기*/
 }
 /*섹션*/
+
+.App-footer {
+	background-color: #E0F2F7;
+	height: 5%;
+	width: 100%;
+	display: flex;
+}
+/*푸터*/

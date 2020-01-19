@@ -1,29 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Nav from './Nav.js';
 
-function App() {
-  return (
-    <div className="App">
-	  	<header className="App-header">
-	    	<img src={logo} className="App-logo" alt="logo" />
-	      <p>
-	        Edit <code>src/App.js</code> and save to reload.
-	      </p>
-	      <a
-	      	className="App-link"
-	        href="https://www.naver.com"
-	        target="_blank"
-	        rel="noopener noreferrer"
-	      >
-	      Please~~~
-	   		</a>
-	   	</header>
-	   	<nav className="App-section">
-	   		<p> section</p>
-	   	</nav>
-    </div>
-  );
+class App extends Component {
+	render() {
+  	return (
+	 		<div className="App">
+		  	<header className="App-header">
+		      <h1>
+		        Suin's Portfolio { '¼öÀÎ' }
+		      </h1>
+		   	</header>
+		   	<Nav />
+		   	<section className="App-section">
+		   		<h1> section </h1>
+		   	</section>
+		   	<footer className="App-footer">
+		   		<a> fotter </a>
+		   	</footer>
+	    </div>
+	  );
+	};
 }
 
 export default App;
