@@ -3,10 +3,11 @@ import './App.css';
 
 const Nav = () => (
 	<nav className="App-nav">
+		<h1>장수인</h1>
 		<ul>
-			<li><a href="#none" className="navLink">프로</a></li>
-			<li><a href="#none" className="navLink">Philler App</a></li>
-			<li><a href="#none" className="navLink">Employee Website</a></li>
+			<li><a href="#none" className="App-nav-menu">CONTACT</a></li>
+			<li><a href="#none" className="App-nav-menu">PROJECTS</a></li>
+			<li><a href="#none" className="App-nav-menu">ABOUT</a></li>
 		</ul>
 	</nav>
 )
