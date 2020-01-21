@@ -51,7 +51,7 @@
 	background-color:#d981ff;
 }
 
-.App-nav ul li{ /*이걸 적용과 동시에 세로로 놓이던 것들이 자동으로 가로로 설정됨*/	
+.App-nav ul li { /*이걸 적용과 동시에 세로로 놓이던 것들이 자동으로 가로로 설정됨*/	
   list-style: none; /*li태그들을 나타내는 점들이 없어짐*/
 	background-color: #d981ff; 
 	float: left; /*이름이 길면 옆으로 흐르게 함*/
@@ -63,7 +63,7 @@
 .App-nav-menu {
 	text-decoration: none; /*태그 아래 링크 밑줄 없앰*/
 	display: block; /*글씨뿐만 아니라 그 근처 눌러도 링크 걸리게 하기*/
-	font-size: 1em; /*font-weight:폰트 굵기 적용*/
+	font-size: 2vw; /*font-weight:폰트 굵기 적용*/
 	color: white;
 	background-color: #d981ff; 
 	font-family: 'Tomorrow', sans-serif;
@@ -94,8 +94,9 @@
   font-family: 'Tomorrow', sans-serif;
   color: white;
   text-align: center; /*글자 정렬*/
-  font-size: 3em;
+  font-size: 4vw;
   line-height: 60%; /*줄 간격*/
+  font-size-adjust: 0.58;
 }
 
 .App-section h1,h2 {

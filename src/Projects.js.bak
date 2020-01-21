@@ -1,0 +1,16 @@
+﻿import React from 'react';
+import './App.css';
+import Nav from './Nav.js';
+
+const Projects = () => {
+	return (
+		<div className="App">
+				<Nav />
+			  <section className="App-section">
+			  	<h1><b>projects 페이지</b></h1>
+			  </section>
+	    </div>
+	)
+}
+
+export default Projects;

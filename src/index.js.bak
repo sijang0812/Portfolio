@@ -12,4 +12,4 @@ ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();
 
 export { default as About } from './About';
-export { default as Projects } from './Projects';
+export { default as Projects } from './Projects.js';
