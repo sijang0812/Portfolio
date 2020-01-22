@@ -5,21 +5,21 @@ import { Link } from 'react-router-dom';
 class Nav extends Component {
 	render() {
 		return (
-			<nav className="App-nav">
+			<div className="App-nav">
 				<ul>
 					<li>
 						<Link to='/contact' className="App-nav-menu">CONTACT</Link>
 					</li>
 					<li>
-						<Link to='/project' className="App-nav-menu">PROJECTS</Link>
+						<Link to='/projects' className="App-nav-menu">PROJECTS</Link>
 					</li>
 					<li>
 						<Link to='/about' className="App-nav-menu">ABOUT</Link>
 					</li>
 				</ul>
-			</nav>
+			</div>
 		);
 	}
-}
+}			
 
-export default Nav;
+export default Nav;	

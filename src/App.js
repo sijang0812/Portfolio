@@ -8,14 +8,10 @@ class App extends Component {
 	render() {
   	return (
 	 		<div className="App">
-			  <section className="App-section">
-			  	<div className="App-section-bg"></div>
-			  	<div className="Ani-fadein"></div>
-				  <Routes />
-			  </section>
-	    </div>
+	 			<Routes />
+			</div>
 	  );
-	};
+	};	
 }
 
 export default App;

@@ -4,10 +4,12 @@ import Nav from './Nav.js';
 import About from './About.js';
 import Projects from './Projects.js';
 import Contact from './Contact.js';
+import Home from './Home.js';
 
 export default() => (
 	<Router>
 		<Nav />
+		<Route path='/' component={Home} />
 		<Route path='/about' component={About} />
 		<Route path='/projects' component={Projects} />
 		<Route path='/contact' component={Contact} />

@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 class Nav extends Component {
 	render() {
 		return (
-			<nav className="App-nav">
+			<div className="App-nav">
+				<Link to='/' className="App-nav-menu"></Link>
 				<ul>
 					<li>
 						<Link to='/contact' className="App-nav-menu">CONTACT</Link>
@@ -17,9 +18,9 @@ class Nav extends Component {
 						<Link to='/about' className="App-nav-menu">ABOUT</Link>
 					</li>
 				</ul>
-			</nav>
+			</div>
 		);
 	}
-}
+}			
 
-export default Nav;
+export default Nav;	
