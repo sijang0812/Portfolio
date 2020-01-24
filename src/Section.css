@@ -6,8 +6,8 @@
   width: 40%; 
   
   position: fixed;
- 	top: 12%;
- 	left: 35%;
+ 	top: 7%;
+ 	left: 30%;
  	background-color: #ffffff;
 }
 /*About 메뉴*/
@@ -17,11 +17,19 @@
 	height:30px;
 }
 
-.font-ko {
+.title-font-ko {
 	font-family: 'Nanum Myeongjo', serif;
   color: black;
-  text-align: center; /*글자 정렬*/
-  font-size: 2vw;
+  text-align: left; /*글자 정렬*/
+  font-size: 1vw;
+  line-height: 20%;
+}
+
+.font-ko {
+	font-family: 'Noto Sans KR', sans-serif;
+  color: black;
+  text-align: left; /*글자 정렬*/
+  font-size: 1vw;
   line-height: 20%;
 }
 
