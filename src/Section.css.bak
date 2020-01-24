@@ -6,15 +6,23 @@
   width: 40%; 
   
   position: fixed;
- 	top: 10%;
+ 	top: 7%;
  	left: 30%;
  	background-color: #ffffff;
 }
-/*About 메뉴*/
+
+.skill-div {
+	
+}
 
 .Contact-img {
 	width: 30px;
 	height:30px;
+}
+
+.About-img {
+	width: 100px;
+	height:100px;
 }
 
 .title-font-ko {

@@ -10,11 +10,19 @@
  	left: 30%;
  	background-color: #ffffff;
 }
-/*About 메뉴*/
+
+.skill-div {
+	text-align: center;
+}
 
 .Contact-img {
 	width: 30px;
 	height:30px;
+}
+
+.About-img {
+	width: 100px;
+	height:100px;
 }
 
 .title-font-ko {

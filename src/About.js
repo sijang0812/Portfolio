@@ -2,7 +2,11 @@
 import './App.css';
 import './Section.css';
 
-
+import react from './logo/react.png';
+import css3 from './logo/css3.png';
+import html5 from './logo/html5.png';
+import javascript from './logo/javascript.png';
+import github from './logo/github.png';
 
 export default () => (
 	<section className="App-section-others">
@@ -18,7 +22,14 @@ export default () => (
 			
 			<br></br><br></br><br></br><br></br>
 			<h4 className="title-font-ko">Skill</h4>
-			<h className="font-ko"></h>
+			<div className="skill-div">
+				<img src={react} className="About-img"/><br></br>
+				<h className="font-ko">React</h>
+			</div>
+			<div className="skill-div">
+				<img src={css3} className="About-img"/><br></br>
+				<h className="font-ko">css3</h>
+			</div>
 		</div>
 	</section>
 )
