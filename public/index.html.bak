@@ -12,7 +12,8 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--폰트-->
     <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
     <title>Suin's Portpolio</title> 
   </head>
   <body>

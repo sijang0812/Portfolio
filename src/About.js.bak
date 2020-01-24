@@ -1,8 +1,13 @@
 ﻿import React, { Component } from 'react';
 import './App.css';
+import './Section.css';
+
+
 
 export default () => (
-	
-		<h1>abcdddddddddddd</h1>
-	
+	<section className="App-section-others">
+		<div className="Section-main-div">
+			<h6 className="title-font-en">About Me</h6>
+		</div>
+	</section>
 )

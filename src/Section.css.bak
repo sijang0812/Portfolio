@@ -1,0 +1,43 @@
+﻿.Section-main-div {
+	min-height: 67%;
+  min-width: 40%;
+  
+  height: auto;
+  width: 40%; 
+  
+  position: fixed;
+ 	top: 12%;
+ 	left: 35%;
+ 	background-color: #ffff11;
+}
+/*About 메뉴*/
+
+.Contact-img {
+	width: 30px;
+	height:30px;
+}
+
+.font-ko {
+	font-family: 'Nanum Myeongjo', serif;
+  color: black;
+  text-align: center; /*글자 정렬*/
+  font-size: 2vw;
+  line-height: 20%;
+}
+
+.title-font-en {
+	font-family: 'Tomorrow', sans-serif;
+  color: black;
+  text-align: left; /*글자 정렬*/
+  font-size: 2vw;
+}
+
+.font-en {
+	font-family: 'Raleway', sans-serif;
+  color: black;
+  text-align: left; /*글자 정렬*/
+  font-size: 1.5vw;
+  line-height: 40%; /*줄 간격*/
+  font-size-adjust: 0.58;
+}
+/*Contact 메뉴*/

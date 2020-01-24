@@ -3,6 +3,6 @@ import './App.css';
 
 export default () => (
 	<section className="App-section">
-		<h1>abc</h1>
+		<h1>projects</h1>
 	</section>
 )

@@ -1,4 +1,3 @@
-/*App.js*/
 .App {
   min-height: 100%;
   min-width: 100%;
@@ -64,7 +63,7 @@
 .App-nav-menu {
 	text-decoration: none; /*태그 아래 링크 밑줄 없앰*/
 	display: block; /*글씨뿐만 아니라 그 근처 눌러도 링크 걸리게 하기*/
-	font-size: 2vw; /*font-weight:폰트 굵기 적용*/
+	font-size: 1vw; /*font-weight:폰트 굵기 적용*/
 	color: white;
 	background-color: #d981ff; 
 	font-family: 'Tomorrow', sans-serif;
@@ -77,7 +76,7 @@
 }
 /*네비게이션*/
 
-.App-section {
+.App-section-home {
 	background-color: #ffffff;
 	background-image: url(./main.jpg);
 	background-position: center; /*사진 정렬*/
@@ -101,12 +100,7 @@
   font-size-adjust: 0.58;
 }
 
-.App-section h1,h2 {
-	position: relative;
-	z-index: 1000; /*글자 맨 앞으로 나오게 출력*/
-}
-
-.App-section-bg {
+.App-section-home-shadow {
 	background-color: rgba(0,0,0,0.5);
 	position: absolute; /*겹치게하기*/
 	
@@ -115,6 +109,24 @@
   
   height: auto;
   width: 100%;  
+  
+  position: fixed;
+ 	top: 7%;
+}
+
+.App-section-home h1,h2 {
+	position: relative;
+	z-index: 1000; /*글자 맨 앞으로 나오게 출력*/
+}
+
+.App-section-others {
+	background-color: #ffffff;
+	
+	min-height: 93%;
+  min-width: 100%;
+  
+  height: auto;
+  width: 100%; 
   
   position: fixed;
  	top: 7%;
