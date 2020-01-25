@@ -1,4 +1,4 @@
-﻿import React, { Component } from 'react';
+﻿import React, { Component, useRef, useEffect } from 'react';
 import './App.css';
 import './Section.css';
 
@@ -8,6 +8,12 @@ import html5 from './logo/html5.png';
 import javascript from './logo/javascript.png';
 import github from './logo/github.png';
 
+import jjava from './logo/jjava.png';
+import c from './logo/c.png';
+import linux from './logo/linux.png';
+import android from './logo/android.png';
+import oracle from './logo/oracle.png';
+	
 export default () => (
 	<section className="App-section-others">
 		<div className="Section-main-div">
@@ -21,15 +27,50 @@ export default () => (
 			<h className="font-ko">서울여자대학교 정보보호학과 전공</h>
 			
 			<br></br><br></br><br></br><br></br>
-			<h4 className="title-font-ko">Skill</h4>
+			<h4 className="title-font-ko">Skills</h4>
 			<div className="skill-div">
-				<img src={react} className="About-img"/><br></br>
-				<h className="font-ko">React</h>
+				<img src={jjava} className="About-img"/><br></br>
+				<h className="font-ko">java</h>
+			</div>
+			
+			<div className="skill-div">
+				<img src={android} className="About-img"/><br></br>
+				<h className="font-ko">android</h>
+			</div>
+			<div className="skill-div">
+				<img src={oracle} className="About-img"/><br></br>
+				<h className="font-ko">oracle</h>
+			</div>
+			<div className="skill-div">
+				<img src={javascript} className="About-img"/><br></br>
+				<h className="font-ko">javascript</h>
+			</div>
+			<div className="skill-div">
+				<img src={html5} className="About-img"/><br></br>
+				<h className="font-ko">html5</h>
+			</div>
+			<div className="skill-div">
+				<img src={css3} className="About-img"/><br></br>
+				<h className="font-ko">css3</h>
 			</div>
 			<div className="skill-div">
 				<img src={react} className="About-img"/><br></br>
 				<h className="font-ko">React</h>
 			</div>
+			<div className="skill-div">
+				<img src={github} className="About-img"/><br></br>
+				<h className="font-ko">github</h>
+			</div>
+			
+			<div className="skill-div">
+				<img src={linux} className="About-img"/><br></br>
+				<h className="font-ko">linux</h>
+			</div>
+			<div className="skill-div">
+				<img src={c} className="About-img"/><br></br>
+				<h className="font-ko">c</h>
+			</div>
+			
 		</div>
 	</section>
 )

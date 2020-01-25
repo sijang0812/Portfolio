@@ -4,8 +4,9 @@ import Nav from './Nav.js';
 import About from './About.js';
 import Projects from './Projects.js';
 import Contact from './Contact.js';
+import Home from './Home.js';
 
-export default() => (
+	return (
 	<Router>
 		<Nav />
 		<Route path='/' component={Home} />
@@ -13,4 +14,4 @@ export default() => (
 		<Route path='/projects' component={Projects} />
 		<Route path='/contact' component={Contact} />
 	</Router>
-)
+);

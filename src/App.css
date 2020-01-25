@@ -83,10 +83,10 @@
 	background-repeat: no-repeat; /*노바둑판정렬*/
 	background-size: cover; /*높이100%*/
 	
-	min-height: 93%;
-  min-width: 100%;
-  
-  height: auto;
+	min-height: 93%; 
+	min-width: 100%;
+	
+  height: auto; 
   width: 100%; 
   
   position: fixed;
@@ -125,7 +125,7 @@
 	min-height: 93%;
   min-width: 100%;
   
-  height: auto;
+  height: auto; 
   width: 100%; 
   
   position: fixed;

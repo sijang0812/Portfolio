@@ -1,21 +1,31 @@
 ﻿import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import ScrollArea from 'react-scrollbar';
 import './App.css';
 import Nav from './Nav.js';
 import Routes from './Routes.js';
 import Main from './main.jpg';
 
-class App extends Component {
+class App extends React.Component {
 	render() {
   	return (
-	 		<div className="App">
-	 		<Routes />
-	 		<section className="App-section">
-					<div className="App-section-bg"></div>
-					<div className="Ani-fadein"></div>
-				</section>
+  	<ScrollArea
+  	speed={0.8}
+  	horizontal={false}
+  	vertical={true}
+  	>
+  	
+  	
+			<div className="App">
+	 			<Routes />
 			</div>
+			
+			
+			
+			
+			</ScrollArea>
 	  );
 	};	
 }
 
-export default App;
+export default App; 

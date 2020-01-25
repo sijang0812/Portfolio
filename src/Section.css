@@ -2,17 +2,25 @@
 	min-height: 67%;
   min-width: 40%;
   
-  height: auto;
+  height: 93%; /*height가 원래는 auto였는데 이걸 없애니 스크롤바가 생김*/
   width: 40%; 
   
   position: fixed;
  	top: 7%;
  	left: 30%;
  	background-color: #ffffff;
+ 	
+ 	overflow: auto; /*스크롤바 생성*/
+}
+
+.Section-main-div::-webkit-scrollbar {
+	display: none; /*이거 전체가 투명 스크롤바 만들기 코드*/
 }
 
 .skill-div {
 	text-align: center;
+	width: 33%; /*100/33~= 한줄에 3개 배치*/
+	float: left; /*위에서 아래가 아니라, 왼쪽에서 오른쪽으로 배치*/
 }
 
 .Contact-img {
