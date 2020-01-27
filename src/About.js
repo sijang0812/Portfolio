@@ -27,6 +27,10 @@ export default () => (
 			<h className="font-ko">서울여자대학교 정보보호학과 전공</h>
 			
 			<br></br><br></br><br></br><br></br>
+			<h4 className="title-font-ko">GitHub</h4>
+			<h className="font-ko">https://github.com/sijang0812</h>
+			
+			<br></br><br></br><br></br><br></br>
 			<h4 className="title-font-ko">Skills</h4>
 			<div className="skill-div">
 				<img src={jjava} className="About-img"/><br></br>

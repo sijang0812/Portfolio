@@ -1,5 +1,5 @@
 ﻿.Section-main-div {
-	min-height: 67%;
+	min-height: 93%;
   min-width: 40%;
   
   height: 93%; /*height가 원래는 auto였는데 이걸 없애니 스크롤바가 생김*/
@@ -8,13 +8,13 @@
   position: fixed;
  	top: 7%;
  	left: 30%;
- 	background-color: #ffffff;
+ 	background-color: #ffff11;
  	
  	overflow: auto; /*스크롤바 생성*/
 }
 
 .Section-main-div::-webkit-scrollbar {
-	display: none;
+	display: none; /*이거 전체가 투명 스크롤바 만들기 코드*/
 }
 
 .skill-div {

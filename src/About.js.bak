@@ -30,28 +30,27 @@ export default () => (
 			<h4 className="title-font-ko">Skills</h4>
 			<div className="skill-div">
 				<img src={jjava} className="About-img"/><br></br>
-				<h className="font-ko">java</h>
+				<h className="font-ko">Java</h>
 			</div>
-			
 			<div className="skill-div">
 				<img src={android} className="About-img"/><br></br>
-				<h className="font-ko">android</h>
+				<h className="font-ko">Android Studio</h>
 			</div>
 			<div className="skill-div">
 				<img src={oracle} className="About-img"/><br></br>
-				<h className="font-ko">oracle</h>
+				<h className="font-ko">Oracle</h>
 			</div>
 			<div className="skill-div">
 				<img src={javascript} className="About-img"/><br></br>
-				<h className="font-ko">javascript</h>
+				<h className="font-ko">JavaScript</h>
 			</div>
 			<div className="skill-div">
 				<img src={html5} className="About-img"/><br></br>
-				<h className="font-ko">html5</h>
+				<h className="font-ko">HTML5</h>
 			</div>
 			<div className="skill-div">
 				<img src={css3} className="About-img"/><br></br>
-				<h className="font-ko">css3</h>
+				<h className="font-ko">CSS3</h>
 			</div>
 			<div className="skill-div">
 				<img src={react} className="About-img"/><br></br>
@@ -59,16 +58,15 @@ export default () => (
 			</div>
 			<div className="skill-div">
 				<img src={github} className="About-img"/><br></br>
-				<h className="font-ko">github</h>
+				<h className="font-ko">GitHub</h>
 			</div>
-			
 			<div className="skill-div">
 				<img src={linux} className="About-img"/><br></br>
-				<h className="font-ko">linux</h>
+				<h className="font-ko">Linux</h>
 			</div>
 			<div className="skill-div">
 				<img src={c} className="About-img"/><br></br>
-				<h className="font-ko">c</h>
+				<h className="font-ko">C</h>
 			</div>
 			
 		</div>
