@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.46fe2817.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c9430b7b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c9430b7b.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.c79fd7c8.chunk.css",
+    "main.js": "/Portfolio/static/js/main.35d4cdfa.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.35d4cdfa.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.0265fdca.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.0265fdca.js.map",
     "static/js/2.115de09c.chunk.js": "/Portfolio/static/js/2.115de09c.chunk.js",
     "static/js/2.115de09c.chunk.js.map": "/Portfolio/static/js/2.115de09c.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.840286ccce1fbcb9756ea807618e3461.js": "/Portfolio/precache-manifest.840286ccce1fbcb9756ea807618e3461.js",
+    "precache-manifest.d2cafadfd99547fc0dd6b7ea13a3a2a0.js": "/Portfolio/precache-manifest.d2cafadfd99547fc0dd6b7ea13a3a2a0.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.46fe2817.chunk.css.map": "/Portfolio/static/css/main.46fe2817.chunk.css.map",
+    "static/css/main.c79fd7c8.chunk.css.map": "/Portfolio/static/css/main.c79fd7c8.chunk.css.map",
     "static/js/2.115de09c.chunk.js.LICENSE": "/Portfolio/static/js/2.115de09c.chunk.js.LICENSE",
     "static/media/android.png": "/Portfolio/static/media/android.a803e97a.png",
     "static/media/c.png": "/Portfolio/static/media/c.df7e79f2.png",
-    "static/media/github.png": "/Portfolio/static/media/github.9a31653b.png",
     "static/media/jjava.png": "/Portfolio/static/media/jjava.62be9fb6.png",
     "static/media/linux.png": "/Portfolio/static/media/linux.6b5e6f8d.png",
     "static/media/mail.png": "/Portfolio/static/media/mail.598d07e7.png",
     "static/media/main.jpg": "/Portfolio/static/media/main.3da7523f.jpg",
+    "static/media/phone.png": "/Portfolio/static/media/phone.e18d028f.png",
     "static/media/react.png": "/Portfolio/static/media/react.8d859602.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0265fdca.js",
     "static/js/2.115de09c.chunk.js",
-    "static/css/main.46fe2817.chunk.css",
-    "static/js/main.c9430b7b.chunk.js"
+    "static/css/main.c79fd7c8.chunk.css",
+    "static/js/main.35d4cdfa.chunk.js"
   ]
 }
