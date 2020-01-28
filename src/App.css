@@ -152,3 +152,5 @@
 /*페이드인*/
 
 /*Routes.js:<Route>와 <Link>컴포넌트는 DOM트리상에서 항상 <Router>를 공통 상위 컴포넌트로 가져야 합니다*/
+/*Route exact path는 정확한 경로 값, 이거 안 쓰면 ./about해도 ./ 경로로 들어간다*/
+/**/
