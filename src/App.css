@@ -150,3 +150,5 @@
   display:none
 }
 /*페이드인*/
+
+/*Routes.js:<Route>와 <Link>컴포넌트는 DOM트리상에서 항상 <Router>를 공통 상위 컴포넌트로 가져야 합니다*/

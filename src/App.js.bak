@@ -1,6 +1,4 @@
 ﻿import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import ScrollArea from 'react-scrollbar';
 import './App.css';
 import Nav from './Nav.js';
 import Routes from './Routes.js';
@@ -9,21 +7,9 @@ import Main from './main.jpg';
 class App extends React.Component {
 	render() {
   	return (
-  	<ScrollArea
-  	speed={0.8}
-  	horizontal={false}
-  	vertical={true}
-  	>
-  	
-  	
 			<div className="App">
 	 			<Routes />
 			</div>
-			
-			
-			
-			
-			</ScrollArea>
 	  );
 	};	
 }

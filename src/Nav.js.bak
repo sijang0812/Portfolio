@@ -2,15 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
 
-class Nav extends Component {
-	render() {
+function Nav {
+	
 		return (
 			<div className="App-nav">
 				
 				<ul> 
-					<li>
-						<Link to='/' className="App-nav-menu">HOME</Link>
-					</li>
 					<li>
 						<Link to='/contact' className="App-nav-menu">CONTACT</Link>
 					</li>
@@ -20,10 +17,13 @@ class Nav extends Component {
 					<li>
 						<Link to='/about' className="App-nav-menu">ABOUT</Link>
 					</li>
+					<li>
+						<Link to='/' className="App-nav-menu">HOME</Link>
+					</li>
 				</ul>
 			</div>
 		);
-	}
+	
 }			
 
 export default Nav;	

@@ -14,7 +14,8 @@ import linux from './logo/linux.png';
 import android from './logo/android.png';
 import oracle from './logo/oracle.png';
 	
-export default () => (
+function About() {
+	return (
 	<section className="App-section-others">
 		<div className="Section-main-div">
 			<h6 className="title-font-en">About Me</h6>
@@ -25,6 +26,10 @@ export default () => (
 			<br></br><br></br><br></br><br></br>
 			<h4 className="title-font-ko">Education</h4>
 			<h className="font-ko">서울여자대학교 정보보호학과 전공</h>
+			
+			<br></br><br></br><br></br><br></br>
+			<h4 className="title-font-ko">GitHub</h4>
+			<h className="font-ko">https://github.com/sijang0812</h>
 			
 			<br></br><br></br><br></br><br></br>
 			<h4 className="title-font-ko">Skills</h4>

@@ -6,7 +6,8 @@ import Projects from './Projects.js';
 import Contact from './Contact.js';
 import Home from './Home.js';
 
-export default() => (
+function Routes() {
+	return (
 	<Router>
 		<Nav />
 		<Route path='/' component={Home} />
@@ -14,4 +15,7 @@ export default() => (
 		<Route path='/projects' component={Projects} />
 		<Route path='/contact' component={Contact} />
 	</Router>
-)
+	);
+}
+
+export default Routes;

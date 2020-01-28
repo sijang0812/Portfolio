@@ -6,6 +6,7 @@ import Projects from './Projects.js';
 import Contact from './Contact.js';
 import Home from './Home.js';
 
+function Routes() {
 	return (
 	<Router>
 		<Nav />
@@ -14,4 +15,5 @@ import Home from './Home.js';
 		<Route path='/projects' component={Projects} />
 		<Route path='/contact' component={Contact} />
 	</Router>
-);
+	);
+}

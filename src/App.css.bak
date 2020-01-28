@@ -130,8 +130,6 @@
   
   position: fixed;
  	top: 7%;
- 	
- 	overflow: auto; /*스크롤바 생성*/
 }
 /*섹션*/
 
@@ -152,3 +150,5 @@
   display:none
 }
 /*페이드인*/
+
+/*Route.js:<Route>와 <Link>컴포넌트는 DOM트리상에서 항상 <Router>를 공통 상위 컴포넌트로 가져야 합니다*/

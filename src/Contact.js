@@ -4,7 +4,8 @@ import './Section.css';
 import mail from './logo/mail.png';
 import phone from './logo/phone.png';
 
-export default () => (
+function Contacts() {
+	return (
 	<section className="App-section-others">
 		<div className="Section-main-div">
 			<h6 className="title-font-en">Contact</h6>
@@ -19,4 +20,7 @@ export default () => (
 			</h>
 		</div>
 	</section>
-)
+	);
+}
+
+export default Contacts;

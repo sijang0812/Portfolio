@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
 
-class Nav extends Component {
-	render() {
+function Nav() {
+	
 		return (
 			<div className="App-nav">
 				
@@ -23,7 +23,7 @@ class Nav extends Component {
 				</ul>
 			</div>
 		);
-	}
+	
 }			
 
 export default Nav;	
