@@ -6,7 +6,6 @@ function Nav() {
 	
 		return (
 			<div className="App-nav">
-				<Link to='/' className="App-nav-menu"></Link>
 				<ul> 
 					<li>
 						<Link to='/contact' className="App-nav-menu">CONTACT</Link>
@@ -17,7 +16,9 @@ function Nav() {
 					<li>
 						<Link to='/about' className="App-nav-menu">ABOUT</Link>
 					</li>
-					
+					<li>
+						<Link to='/' className="App-nav-menu">HOME</Link>
+					</li>
 				</ul>
 			</div>
 		);
