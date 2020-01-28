@@ -6,7 +6,7 @@ function Nav() {
 	
 		return (
 			<div className="App-nav">
-				<Link to='/' className="App-nav-menu">HOME</Link>
+				<Link to='/' className="App-nav-menu"></Link>
 				<ul> 
 					<li>
 						<Link to='/contact' className="App-nav-menu">CONTACT</Link>
