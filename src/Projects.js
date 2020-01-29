@@ -1,5 +1,10 @@
 ﻿import React, { Component } from 'react';
 import './App.css';
+import './Section.css';
+import philler1 from './logo/philler1.png';
+import philler2 from './logo/philler2.png';
+import philler3 from './logo/philler3.PNG';
+import emplist1 from './logo/emplist1.PNG';
 
 function Projects() {
 	return (
@@ -7,6 +12,29 @@ function Projects() {
 		<div className="Section-main-div">
 			<h6 className="title-font-en">Project</h6>
 			
+			<h4 className="title-font-ko">[Philler]</h4>
+			<h className="font-ko">
+				<img src={philler1} className="Philler1-img"/><br></br>
+				- 피싱메일, 스팸메일, 스미싱문자 위험도 알림 앱<br></br>
+				- Java, Android Studio, MySQL<br></br> 
+				- <a href="https://github.com/sijang0812/Philler.git">https://github.com/sijang0812/Philler.git</a><br></br>
+				- 검사 대상에 포함된 단어, 링크, 첨부파일을 기준으로 검사한 후
+				안전단계, 주의단계, 위험단계 중 하나의 결과로 위험도를 보여주는 앱입니다.<br></br>
+				- 실행 방법은 다음과 같습니다.<br></br>
+				(1) Philler 앱 실행<br></br>
+				<img src={philler2} className="Philler23-img"/><br></br>
+				(2) '공유' 기능 이용<br></br>
+				<img src={philler3} className="Philler23-img"/><br></br>
+				<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+			</h>
+			
+			<h4 className="title-font-ko">[직원 정보 열람 프로그램]</h4>
+			<h className="font-ko">
+				<img src={emplist1} className="Emplist1-img"/><br></br>
+				- 가상의 직원 정보를 열람할 수 있는 프로그램<br></br>
+				- HTML, JavaScrip, CSS, Oracle<br></br>
+				- <a href="https://sijang0812.github.io/Emplist/">https://sijang0812.github.io/Emplist/</a><br></br>
+			</h>
 		</div>
 	</section>
 	);

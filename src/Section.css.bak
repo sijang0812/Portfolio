@@ -8,7 +8,7 @@
   position: fixed;
  	top: 7%;
  	left: 30%;
- 	background-color: #ffff11;
+ 	background-color: #ffffff;
  	
  	overflow: auto; /*스크롤바 생성*/
 }
@@ -65,3 +65,14 @@
   font-size-adjust: 0.58;
 }
 /*Contact 메뉴*/
+
+.Philler1-img {
+	width: 450px;
+	height:400px;
+}
+
+.Philler23-img {
+	width: 600px;
+	height:300px;
+}
+/*Projects 메뉴*/
