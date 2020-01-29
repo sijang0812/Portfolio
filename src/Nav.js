@@ -8,16 +8,16 @@ function Nav() {
 			<div className="App-nav">
 				<ul> 
 					<li>
-						<Link to='/contact' className="App-nav-menu">CONTACT</Link>
+						<Link to='/Portfolio/contact' className="App-nav-menu">CONTACT</Link>
 					</li>
 					<li>
-						<Link to='/projects' className="App-nav-menu">PROJECTS</Link>
+						<Link to='/Portfolio/projects' className="App-nav-menu">PROJECTS</Link>
 					</li>
 					<li>
-						<Link to='/about' className="App-nav-menu">ABOUT</Link>
+						<Link to='/Portfolio/about' className="App-nav-menu">ABOUT</Link>
 					</li>
 					<li>
-						<Link to='/' className="App-nav-menu">HOME</Link>
+						<Link to='/Portfolio/' className="App-nav-menu">HOME</Link>
 					</li>
 				</ul>
 			</div>

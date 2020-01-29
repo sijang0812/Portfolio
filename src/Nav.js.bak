@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 function Nav() {
 	
 		return (
-			<Link to='/'></Link>
 			<div className="App-nav">
 				<ul> 
 					<li>

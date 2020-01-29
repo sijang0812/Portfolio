@@ -11,10 +11,10 @@ function Routes() {
 	<Router>
 		<Nav />
 		<Switch>
-			<Route exact path='/' component={Home} />
-			<Route path='/about' component={About} />
-			<Route path='/projects' component={Projects} />
-			<Route path='/contact' component={Contact} />
+			<Route exact path='/Portfolio/' component={Home} />
+			<Route path='/Portfolio/about' component={About} />
+			<Route path='/Portfolio/projects' component={Projects} />
+			<Route path='/Portfolio/contact' component={Contact} />
 			<Route component={Home} />
 		</Switch>
 	</Router>
