@@ -3,7 +3,7 @@ import './App.css';
 
 function Home() {
 	return (
-	<section className="App-section-home">
+	<section className="App-section-home" ondragstart='return false'>
 		<div className="App-section-home-shadow"></div>
 		<div className="Ani-fadein"></div>
 			<br></br><br></br><br></br><br></br><br></br>
@@ -11,3 +11,5 @@ function Home() {
 	</section>
 	);
 }
+
+export default Home;

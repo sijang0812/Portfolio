@@ -17,7 +17,7 @@ function Projects() {
 				<img src={philler1} className="Philler1-img"/><br></br>
 				- 피싱메일, 스팸메일, 스미싱문자 위험도 알림 앱<br></br>
 				- Java, Android Studio, MySQL<br></br> 
-				- <a href="https://github.com/sijang0812/Philler.git">https://github.com/sijang0812/Philler.git</a><br></br>
+				- <a href="https://github.com/sijang0812/Philler.git" target="_blank">https://github.com/sijang0812/Philler.git</a><br></br>
 				- 검사 대상에 포함된 단어, 링크, 첨부파일을 기준으로 검사한 후
 				안전단계, 주의단계, 위험단계 중 하나의 결과로 위험도를 보여주는 앱입니다.<br></br>
 				- 실행 방법은 다음과 같습니다.<br></br>
@@ -33,7 +33,7 @@ function Projects() {
 				<img src={emplist1} className="Emplist1-img"/><br></br>
 				- 가상의 직원 정보를 열람할 수 있는 프로그램<br></br>
 				- HTML, JavaScrip, CSS, Oracle<br></br>
-				- <a href="https://sijang0812.github.io/Emplist/">https://sijang0812.github.io/Emplist/</a><br></br>
+				- <a href="https://sijang0812.github.io/Emplist/" target="_blank">https://sijang0812.github.io/Emplist/</a><br></br>
 			</h>
 		</div>
 	</section>
